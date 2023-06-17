@@ -42,13 +42,13 @@
                 raise_layer {
 // -----------------------------------------------------------------------------------------
 // |  TAB |  !  |  @  |  #  |  $  |  %  |   |  ^  |  &  |  *  |  (  |  )  | BKSP |
-// | CTRL |PL/PA| PRE | NEX |     |     |   |  -  |  +  |  =  |  [  |  ]  |  *   |
-// | SHFT |  <  |  >  |     |     |     |   |  #  |  {  |  }  |  \  | "|" |  ~   |
+// | CTRL |PL/PA| PRE | NEX | BDO | BUP |   |  -  |  +  |  =  |  [  |  ]  |  *   |
+// | SHFT |  <  |  >  | VMU | VDO | VUP |   |  #  |  {  |  }  |  \  | "|" |  ~   |
 //                    | GUI |     | SPC |   | ENT |     | ALT |
                         bindings = <
-   &kp  TAB  &kp EXCL &kp AT &kp HASH &kp DLLR &kp PRCNT   &kp CARET  &kp AMPS    &kp STAR      &kp LPAR    &kp RPAR      &kp BSPC
-   &kp LCTRL &kp K_PP &kp K_NEXT &kp K_PREV   &trans   &trans      &kp MINUS  &kp KP_PLUS &kp EQUAL     &kp RA(N5)  &kp RA(MINUS) &kp BSLH
-   &kp LSHFT &kp NUBS  &kp LS(NUBS) &trans   &trans   &trans      &kp RA(N3) &kp RA(N4)  &kp RA(EQUAL) &kp RA(N8) &kp RA(N6)    &kp RA(N2)
+   &kp  TAB  &kp EXCL &kp AT       &kp HASH   &kp DLLR     &kp PRCNT    &kp CARET  &kp AMPS    &kp STAR      &kp LPAR    &kp RPAR      &kp BSPC
+   &kp LCTRL &kp C_PP &kp C_NEXT   &kp C_PREV &trans       &trans       &kp MINUS  &kp KP_PLUS &kp EQUAL     &kp RA(N5)  &kp RA(MINUS) &kp BSLH
+   &kp LSHFT &kp NUBS &kp LS(NUBS) &kp C_MUTE &kp C_VOL_DN &kp C_VOL_UP &kp RA(N3) &kp RA(N4)  &kp RA(EQUAL) &kp RA(N8)  &kp RA(N6)    &kp RA(N2)
                              &kp LGUI &trans   &kp SPACE   &kp RET   &trans    &kp LALT
                         >;
                 };
