@@ -94,6 +94,13 @@
 #define FR_EURO RA(E)        // €
 #define FR_CURR RA(FR_DLR)   // ¤
 
+#define TAP_MS 150
+
+&lt {
+  flavor = "tap-preferred";
+  tapping-term-ms = <TAP_MS>;
+  // quick-tap-ms = <TAP_MS>;
+};
 
 
 / {
@@ -102,10 +109,10 @@
 
                 default_layer {
 // -----------------------------------------------------------------------------------------
-// | ESC |  A  |  Z  |  E  |  R   |   T   |   |   Y   |  U   |  I  |  O  |  P  |  ^  |
-// | TAB |  Q  |  S  |  D  |  F   |   G   |   |   H   |  J   |  K  |  L  |  M  |  ù  |
-// | CTRL|  W  |  X  |  C  |  V   |   B   |   |   N   |  ,   |  ;  |  :  |  !  |  $  |
-//                   | ALT | SHFT |ENT/LWR|   |SPC/RSE| BKSP | GUI |
+// | ESC |  A  |  Z  |  E  |  R  |  T  |   |   Y   |  U   |  I  |  O  |  P  |  ^  |
+// | TAB |  Q  |  S  |  D  |  F  |  G  |   |   H   |  J   |  K  |  L  |  M  |  ù  |
+// | CTRL|  W  |  X  |  C  |  V  |  B  |   |   N   |  ,   |  ;  |  :  |  !  |  $  |
+//                   | SHFT| LWR | ENT |   |SPC/RSE| BKSP | GUI |
                         bindings = <
    &kp ESC   &kp FR_A &kp FR_Z &kp FR_E  &kp FR_R  &kp FR_T    &kp FR_Y    &kp FR_U     &kp FR_I    &kp FR_O     &kp FR_P    &kp FR_CIRC
    &kp TAB   &kp FR_Q &kp FR_S &kp FR_D  &kp FR_F  &kp FR_G    &kp FR_H    &kp FR_J     &kp FR_K    &kp FR_L     &kp FR_M    &kp FR_UGRV
