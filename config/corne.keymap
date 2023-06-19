@@ -94,7 +94,7 @@
 #define FR_EURO RA(E)        // €
 #define FR_CURR RA(FR_DLR)   // ¤
 
-#define TAP_MS 100
+#define TAP_MS 150
 
 &lt {
   flavor = "tap-preferred";
