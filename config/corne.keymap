@@ -121,7 +121,7 @@
    &kp ESC    &kp FR_AMPR  &kp FR_EACU  &kp FR_DQT   &kp FR_SQT   &kp FR_LPAR    &kp FR_MINUS &kp FR_EGRV &kp FR_UNDS &kp FR_CCED &kp FR_AGRV &kp BKSP
    &bt BT_CLR &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3 &bt BT_SEL 4   &kp LEFT     &kp DOWN    &kp UP      &kp RIGHT   &kp FR_CIRC &kp FR_AT
    &kp F1     &kp F2       &kp F3       &kp F4       &kp F5       &kp F6         &kp F7       &kp F8      &kp F9      &kp F10     &kp F11     &kp F12
-                                        &kp LSHFT     &trans       &kp RET        &kp SPACE    &kp GUI     &kp LALT
+                                        &kp LSHFT     &trans       &kp RET        &kp SPACE    &kp LGUI     &kp LALT
                         >;
                 };
 
