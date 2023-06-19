@@ -94,10 +94,10 @@
 #define FR_EURO RA(E)        // €
 #define FR_CURR RA(FR_DLR)   // ¤
 
-#define TAP_MS 200
+#define TAP_MS 100
 
 &lt {
-  flavor = "hold-preferred";
+  flavor = "tap-preferred";
   tapping-term-ms = <TAP_MS>;
   // quick-tap-ms = <TAP_MS>;
 };
