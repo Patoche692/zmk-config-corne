@@ -94,7 +94,7 @@
 #define FR_EURO RA(E)        // €
 #define FR_CURR RA(FR_DLR)   // ¤
 
-#define TAP_MS 150
+#define TAP_MS 200
 
 &lt {
   flavor = "tap-preferred";
@@ -127,7 +127,7 @@
 // |  F1  |  F2 |  F3 |  F4 |  F5  |  F6 |   |  F7 |  F8  |  F9 | F10 | F11 | F12 |
 //                    | ALT | SHFT |     |   | SPC | BKSP | GUI |
                         bindings = <
-   &kp ESC    &kp FR_AMPR  &kp FR_EACU  &kp FR_DQT   &kp FR_SQT   &kp FR_LPAR    &kp FR_MINUS &kp FR_EGRV &kp FR_UNDS &kp FR_CCED &kp FR_AGRV &kp FR_DLR
+   &kp ESC    &kp FR_AMPR  &kp FR_EACU  &kp FR_DQT   &kp FR_SQT   &kp FR_LPAR    &kp FR_MINUS &kp FR_EGRV &kp FR_UNDS &kp FR_CCED &kp FR_AGRV &kp FR_RPAR
    &bt BT_CLR &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3 &bt BT_SEL 4   &kp LEFT     &kp DOWN    &kp UP      &kp RIGHT   &kp FR_CIRC &kp FR_AT
    &kp F1     &kp F2       &kp F3       &kp F4       &kp F5       &kp F6         &kp F7       &kp F8      &kp F9      &kp F10     &kp F11     &kp F12
                                         &kp LALT     &trans       &kp SPACE      &kp BKSP     &kp LGUI
@@ -136,12 +136,12 @@
 
                 raise_layer {
 // -----------------------------------------------------------------------------------------
-// | ESC  |  1  |  2  |  3  |  4   |  5  |   |  6  |  7   |  8  | 9 | 0 |   |
+// | ESC  |  1  |  2  |  3  |  4   |  5  |   |  6  |  7   |  8  | 9 | 0 | DEL |
 // | TAB  |PL/PA| PRE | NEX | BDO  | BUP |   | "|" |  [   |  ]  | + | = | * |
 // | CTRL |  <  |  >  | VMU | VDO  | VUP |   |  #  |  {   |  }  | \ | ~ |   |
 //                    | ALT | SHFT | ENT |   |     | BKSP | GUI |
                         bindings = <
-   &kp ESC   &kp FR_1  &kp FR_2   &kp FR_3   &kp FR_4     &kp FR_5     &kp FR_6    &kp FR_7    &kp FR_8    &kp FR_9     &kp FR_0     &trans
+   &kp ESC   &kp FR_1  &kp FR_2   &kp FR_3   &kp FR_4     &kp FR_5     &kp FR_6    &kp FR_7    &kp FR_8    &kp FR_9     &kp FR_0     &kp DEL
    &kp TAB   &kp C_PP  &kp C_NEXT &kp C_PREV &kp C_BRI_DN &kp C_BRI_UP &kp FR_PIPE &kp FR_LBRK &kp FR_RBRK &kp KP_PLUS  &kp FR_EQUAL &kp FR_AST
    &kp LCTRL &kp FR_LT &kp FR_GT  &kp C_MUTE &kp C_VOL_DN &kp C_VOL_UP &kp FR_HASH &kp FR_LBRC &kp FR_RBRC &kp FR_BSLS  &kp FR_TILD  &trans
                                   &kp LALT   &kp LSHFT    &kp RET      &trans      &kp BKSP    &kp LGUI
