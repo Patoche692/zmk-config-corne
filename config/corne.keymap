@@ -76,7 +76,7 @@
 #define FR_PND  LS(FR_DLR)   // £
 #define FR_PERC LS(FR_UGRV)  // %
 #define FR_MICR LS(FR_AST)   // µ
-#define FR_GT LS(FR_LT)    // >
+#define FR_GT LS(FR_LT)      // >
 #define FR_QUES LS(FR_COMMA) // ?
 #define FR_DOT  LS(FR_SEMI)  // .
 #define FR_SLSH LS(FR_COLON) // /
@@ -108,7 +108,7 @@
    &kp ESC   &kp FR_A &kp FR_Z &kp FR_E  &kp FR_R  &kp FR_T    &kp FR_Y    &kp FR_U     &kp FR_I    &kp FR_O     &kp FR_P    &kp BKSP
    &kp TAB   &kp FR_Q &kp FR_S &kp FR_D  &kp FR_F  &kp FR_G    &kp FR_H    &kp FR_J     &kp FR_K    &kp FR_L     &kp FR_M    &kp FR_UGRV
    &kp LCTRL &kp FR_W &kp FR_X &kp FR_C  &kp FR_V  &kp FR_B    &kp FR_N    &kp FR_COMMA &kp FR_SEMI &kp FR_COLON &kp FR_EXCL &kp FR_DLR
-                               &kp LALT  &mo 1     &kp RET     &kp SPACE   &mo 2        &kp SHFT
+                               &kp LALT  &mo 1     &kp RET     &kp SPACE   &mo 2        &kp LSHFT
                         >;
                 };
                 lower_layer {
@@ -121,7 +121,7 @@
    &kp ESC    &kp FR_AMPR  &kp FR_EACU  &kp FR_DQT   &kp FR_SQT   &kp FR_LPAR    &kp FR_MINUS &kp FR_EGRV &kp FR_UNDS &kp FR_CCED &kp FR_AGRV &kp BKSP
    &bt BT_CLR &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3 &bt BT_SEL 4   &kp LEFT     &kp DOWN    &kp UP      &kp RIGHT   &kp FR_CIRC &kp FR_AT
    &kp F1     &kp F2       &kp F3       &kp F4       &kp F5       &kp F6         &kp F7       &kp F8      &kp F9      &kp F10     &kp F11     &kp F12
-                                        &kp LALT     &trans       &kp RET        &kp SPACE    &kp GUI     &kp SHFT
+                                        &kp LALT     &trans       &kp RET        &kp SPACE    &kp GUI     &kp LSHFT
                         >;
                 };
 
@@ -135,7 +135,7 @@
    &kp ESC   &kp FR_1  &kp FR_2   &kp FR_3   &kp FR_4     &kp FR_5     &kp FR_6    &kp FR_7    &kp FR_8    &kp FR_9     &kp FR_0     &kp BKSP
    &kp TAB   &kp C_PP  &kp C_NEXT &kp C_PREV &kp C_BRI_DN &kp C_BRI_UP &kp FR_LPAR &kp FR_LBRK &kp FR_RBRK &kp KP_PLUS  &kp FR_EQUAL &kp FR_AST
    &kp LCTRL &kp FR_LT &kp FR_GT  &kp C_MUTE &kp C_VOL_DN &kp C_VOL_UP &kp FR_HASH &kp FR_LBRC &kp FR_RBRC &kp FR_BSLS  &kp FR_PIPE  &kp FR_TILD
-                                  &kp LALT   &kp DEL      &kp RET      &kp SPC     &trans      &kp SHFT
+                                  &kp LALT   &kp DEL      &kp RET      &kp SPC     &trans      &kp LSHFT
                         >;
                 };
         };
